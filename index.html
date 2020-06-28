@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文字数カウンター</title>
+</head>
+<body>
+    <h1>入力した文字数を数えてその数を出力します。</h1>
+    <h2>文字は100000文字まで入力できます。</h2>
+    <h2>PCでの使用を推奨。/h2>
+    <form id="form" action="#">
+        <!--入力-->
+        <input type="text" id="input_message" size="100" maxlength="100000" value="">
+        <input type="button" onclick="main()" value="結果を出力する">
+    </form>
+
+    <!--出力-->
+    <div id="output_message"></div>
+    <script src="script.js"></script>
+</body>
+</html>
