@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>文字数カウンター</title>
 </head>
 <body>
     <!--締め切りまで何時間を追加-->
-    <h1>入力した文字数を数えてその数を出力します。</h1>
+    <h1>入力した文字の文字数を出力します。</h1>
     <h2>レポート課題などでご活用ください。</h2>
-    <h3>文字は30000文字まで入力できます。</h3>
+    <h5>文字は30000文字まで入力できます。</h5>
     <!--<form id="form" action="#">-->
         <!--入力-->
-        <textarea type="text" id="input_message" cols="50" rows="30" maxlength="30000"  placeholder="文字を入力してください"></textarea>
-        <input type="button" onclick="main()" value="結果を出力する">
+        <textarea type="text" id="input_message" cols="130" rows="20" maxlength="30000"  placeholder="文字を入力してください"></textarea>
+        <button type="button" name="" value="">
+            <font size="2" onclick="main()" >結果を出力する</font>
+        </button>
     <!--</form>-->
 
     <!--出力-->
